@@ -1,0 +1,155 @@
+.upper{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+body{
+    font-family: 'Inter', sans-serif !important;
+}
+
+nav{
+    background: #ffffff;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+h6{
+    color: #00B9B6;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}
+
+h4{
+    color: var(--txt-black, #0E0E0F);
+/* desktop/headers/desktop/h3 */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+}
+
+h1{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+
+.nav-link{
+    color: var(--txt-black-lighten, #333);
+    /* desktop/other/link */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.navbar-toggler{
+    border: rgb(255 255 255 / 0%);
+}
+
+.psycho{
+    color: #00B9B6;
+}
+
+.speak-title{
+    text-transform: uppercase;
+    color: #00B9B6;
+}
+
+.stores{
+    max-width: 160px;
+}
+
+.btn-dark{
+    font-size: 12px;
+}
+
+
+
+.slider-img{
+    max-height: 200px;
+}
+
+.btn-slider{
+    background-image: url(img/vector/dot.svg);
+}
+
+.form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form-container{
+    color: #ffffff;
+    background-color: #00B9B6;
+    border: #00B9B6;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.6s ease;
+}
+
+.form-container:hover{
+    background-color: rgba(0, 185, 182, 0.10);
+    color: #1a1a1a;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    transition: 0.6s ease;
+    border: #000000;
+    border-radius: 15px;
+}
+
+.form-btn{
+    background-color: #ffffff;
+    color: #00B9B6;
+}
+
+.form-btn:hover{
+    color: #ffffff;
+    background-color: #00B9B6;
+}
+
+.form-control{
+    max-height: 25px;
+}
+
+.soc-img{
+    max-width: 40px;
+}
+
+.footer-link{
+    color: var(--txt-black-lighten, #333);
+    /* desktop/other/link */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+}
+
+.help-icon{
+    max-width: 20px;
+}
+
+.help-img{
+    min-width: 300px;
+}
+
+.stat{
+    text-align: center;
+}
+
+.stats{
+    color: #ffa800;
+}

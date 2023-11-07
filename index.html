@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <img src="img/raster/logo.png" alt="" class="logo">
+          <button class="navbar-toggler hidden-lg-up" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/vector/burger_menu.svg" alt="" class="w-100">
+            </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#psih">Психологи</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#priem">Приемущества</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#uslug">Услуги</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+              <button type="button" class="btn btn-success">Войти</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    <main class="main my-5">
+      <div class="container upper">
+        <div class="row">
+          <div class="col-md-5 col-lg-5 col-sm-12 my-auto">
+            <div class="header-start">
+              <h6 class="psycho">+300 прошедших отбор психологов</h6>
+              <h1 class="start">Сессии с психологом<br>Онлайн</h1>
+              <button type="button" class="btn btn-success my-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Сначала зарегистрируйтесь">Начать беседу</button><br>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Почему именно мы?
+              </button>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Почему именно мы?</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                      Наша компания очень хорошая и наши психологи самые лучшие<br>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil velit enim impedit hic natus tempora consequuntur praesentium facere, magni incidunt error ea perferendis obcaecati nisi adipisci iste rem veniam. Suscipit.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-7 col-sm-12">
+            <img src="img/raster/header man.png" alt="" class="w-100">
+          </div>
+        </div>
+      </div>
+      <div class="container app">
+        <div class="row">
+          <div class="col-md-7 col-lg-5 col-lg-5 col-sm-12 my-auto">
+            <img src="img/raster/app.png" alt="" class="w-100">
+          </div>
+        <div class="col-md-5 col-lg-7 col-lg-7 col-sm-12 my-2">
+          <div class="row">
+            <div class="col-12">
+                <h4>Скачайте бесплатно приложение SPEAK</h4>
+              </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-2 my-auto"><img src="img/raster/app-logo.png" alt="" class="w-100">
+                </div>
+                <div class="col-10 my-4 my-md-0">
+                  <h6 class="speak-title">Speak</h6>
+                  <p>онлайн сессии с психологом<br>доступно для iOS и Android</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-4 stores"><img src="img/raster/appstore.png" alt="" class="w-100 stores-img"></div>
+                <div class="col-4 stores"><img src="img/raster/playstore.png" alt="" class="w-100 stores-img"></div>
+              </div>
+            </div>
+          </div>
+          <div class="toast show">
+            <div class="toast-header">
+              Объявление
+              <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+              Приложение скоро появится в RuStore и Huawei AppGallery
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="psih" class="container slider my-5">
+      <h4 class="text-center">Психологи работающие с актуальными темами</h4>
+      <div id="carouselExampleIndicators" class="carousel slide mx-md-5 mt-5">
+        <div class="carousel-indicators">
+            <button type="button btn-slider" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+            </button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide3.png" alt="" class="slider-img my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide.png" alt="" class="slider-img my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide5.png" alt="" class="slider-img mb-5 my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide2.png" alt="" class="slider-img mb-5 my-sm-5">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide3.png" alt="" class="slider-img my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide4.png" alt="" class="slider-img my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide2.png" alt="" class="slider-img mb-5 my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide.png" alt="" class="slider-img mb-5 my-sm-5">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide5.png" alt="" class="slider-img my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide4.png" alt="" class="slider-img my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide.png" alt="" class="slider-img mb-5 my-sm-5">
+                </div>
+                <div class="col-6 col-sm-3">
+                  <img src="img/raster/slide2.png" alt="" class="slider-img mb-5 my-sm-5">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="priem" class="container help-you">
+      <div class="row">
+        <div class="col-lg-7 col-12 my-auto">
+          <div class="row">
+            <div class="col-12">
+              <h4>Поможем вам</h4>
+            </div>
+            <div class="col-12 mb-3">
+                <img src="img/vector/icon_check.svg" alt="" class="help-icon w-100 my-auto">
+                Разрешить причины сложных отношений с партнером
+              </div>
+            <div class="col-12 mb-3">
+                <img src="img/vector/icon_check.svg" alt="" class="help-icon w-100 my-auto">
+                Снять или снизить остроту переживаний
+              </div>
+            <div class="col-12 mb-3">
+                <img src="img/vector/icon_check.svg" alt="" class="help-icon w-100 my-auto">
+                Справиться с выгоранием на работе и найти мотивацию
+              </div>
+            <div class="col-12 mb-3">
+                <img src="img/vector/icon_check.svg" alt="" class="help-icon w-100 my-auto">
+                Понять себя в отношениях с близкими людьми
+              </div>
+            <div class="col-12 mb-3">
+                <img src="img/vector/icon_check.svg" alt="" class="help-icon w-100 my-auto">
+                Найти себя и понимать свои желания
+              </div>
+            <div class="col-12 mb-3">
+                <img src="img/vector/icon_check.svg" alt="" class="help-icon w-100 my-auto">
+                Исследовать и управлять изменениями в своей жизни
+              </div>
+          </div>
+          </div>
+        <div class="col-lg-5 col-8">
+          <img src="img/raster/help-you.png" alt="" class="help-img w-100">
+        </div>
+      </div>
+    </div>
+    <div class="container stat mt-5">
+      <div class="row">
+        <div class="col-md-9 col-lg-8 col-sm-12">
+          <img src="img/raster/app.png" alt="" class="w-100">
+        </div>
+      <div class="col-md-3 col-lg-4 col-sm-12 my-2 d-flex align-items-stretch">
+        <div class="row">
+          <div class="col-12">
+              <h1 class="stats">900+</h1>
+              <p>Регистраций вчера</p>
+            </div>
+          <div class="col-12">
+            <h1 class="stats">7500+</h1>
+            <p>Проведено сессий</p>
+          </div>
+          <div class="col-12">
+            <h1 class="stats">354+</h1>
+            <p>Психологов</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="uslug" class="container form">
+      <h4 class="mb-5">Услуги</h4>
+      <div class="row">
+        <div class="col-lg-6 col-12 mb-5">
+          <div class="form-container">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
+                    <h5>24 часа чата</h5>
+                  </div>
+                  <div class="col-12">
+                    <h1>4200Р</h1><h3>/24 часа</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12"><p>24 часа доступа к чату с психологом</p></div>
+                  <div class="col-12"><p>Аудио сообщения<p></div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row">
+
+                  <div class="col-6">
+                    <button type="button" class="btn btn-success form-btn">Перейти</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 mb-5">
+          <div class="form-container">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
+                    <h5>Аудио/Видео сессии</h5>
+                  </div>
+                  <div class="col-12">
+                    <h1>49Р</h1><h3>/1 минута</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12"><p>Безлимитный доступ к чату с психологом до конца сессии</p></div>
+                  <div class="col-12"><p>Аудио/Видео звонки<p></div>
+                  <div class="col-12"><p>Нет лимитов по времени разговора</p></div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="mb-3">
+                      <form class="was-validated">
+                        <div class="mb-3">
+                          <textarea class="form-control" id="validationTextarea" placeholder="Минуты" required></textarea>
+                          <div class="invalid-feedback">
+                            Введите число
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <button type="button" class="btn btn-success form-btn">Перейти</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>  
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="row">
+              <div class="col-12"><img src="img/raster/logo.png" alt="" class="logo"></div>
+              <div class="col-12 mt-5">
+                <div class="row">
+                  <div class="col-sm-3 col-12"><a class="footer-link" href="">Home</a><br><a class="footer-link" href="">About Us</a></div>
+                  <div class="col-sm-2 col-12"><a class="footer-link" href="">Blog</a><br><a class="footer-link" href="">Contact</a></div>
+                  <div class="col-sm-5 col-12"><a class="footer-link" href="">Privacy Policy</a><br><a class="footer-link" href="">Terms and conditions</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/vector/icaon_facebook.svg" alt="" class="soc-img w-100">
+                <img src="img/vector/icaon_insta.svg" alt="" class="soc-img w-100 mx-2">
+                <img src="img/vector/icaon_linkedin.svg" alt="" class="soc-img w-100">
+                <img src="img/vector/icaon_twitter.svg" alt="" class="soc-img w-100 mx-2">
+              </div>
+              <div class="col-12 mt-5">
+                <div class="row">
+                  <div class="col-12 footer-link">
+                    <div class="row">
+                      <div class="col-1">
+                        <img src="img/vector/icon_mail.svg" alt="" class="icon-img">
+                      </div>
+                      <div class="col-11">
+                        info@speak.help
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 footer-link">
+                    <div class="row">
+                      <div class="col-1">
+                        <img src="img/vector/icon_pin.svg" alt="" class="icon-img">
+                      </div>
+                      <div class="col-11">
+                        33 W 60th Street, 8th FI New York, NY 10023
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </footer>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+  </script>
+<script>
+  document.getElementById("toastbtn").onclick = function() {
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function(toastEl) {
+      return new bootstrap.Toast(toastEl)
+    })
+    toastList.forEach(toast => toast.show())
+  }
+  </script>
+</body>
+</html>
